@@ -1,0 +1,63 @@
+.jumbotron {
+    background-image: url(../images/caro-4.jpg);
+    background-size: cover; 
+    height: 250px;
+    text-align: center;
+    margin-top: -120px; 
+}
+
+.jumbotron .display-4 {
+    color: rgb(0, 0, 0);
+	margin-top: 125px;
+	font-size: 30px;
+}
+
+.section_title
+{
+	font-size: 24px;
+	font-weight: 600;
+	color: #1b1b1b;
+}
+.section_subtitle
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #6c6a74;
+	margin-top: 3px;
+}
+.cart_total_container
+{
+	margin-top: 42px;
+	padding-left: 45px;
+	padding-top: 20px;
+	padding-right: 44px;
+	padding-bottom: 19px;
+	background: #f2f4f8;
+}
+.cart_total_container ul
+{
+	width: 100%;
+}
+.cart_total_container ul li
+{
+	width: 100%;
+}
+.cart_total_title
+{
+	font-size: 20px;
+	font-weight: 500;
+	color: #1b1b1b;
+	line-height: 2;
+}
+.cart_total_value
+{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 500;
+	color: #6c6a74;
+	margin-top: 12px;
+}
+.checkout_button
+{
+	width: 100%;
+}

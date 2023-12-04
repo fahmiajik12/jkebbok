@@ -1,0 +1,146 @@
+.jumbotron {
+    background-image: url(../images/caro-4.jpg);
+    background-size: contain; 
+    height: 820px;
+    text-align: center;
+    margin-top: -120px; 
+}
+
+.jumbotron .display-4 {
+    color: black;
+    margin-top: 250px;
+}
+
+.jumbotron p {
+    color: black;
+    font-size: 20px;
+}
+
+.products {
+	width: 100%;
+	background: rgb(223, 223, 223);
+	padding-top: 80px;
+	z-index: 2;
+}
+
+.product {
+	width: calc((100% - 90px) / 4);
+	margin-bottom: 20px;
+}
+
+.product_image {
+	width: 100%;
+}
+
+.product_image img {
+	max-width: 100%;
+}
+
+.product_title a {
+	font-size: 18px;
+	font-weight: 500;
+	color: #1b1b1b;
+	line-height: 2;
+}
+
+.product_title a:hover {
+	color: #e95a5a;
+}
+
+.product_price {
+	font-size: 16px;
+	font-weight: 500;
+	color: #6c6a74;
+	line-height: 0.75;
+	margin-top: 5px;
+}
+
+.nmpengarang {
+    font-size: 16px;
+	font-weight: 500;
+	color: #6c6a74;
+	line-height: 0.75;
+	margin-top: 13px;
+}
+
+.product_details {
+	width: 100%;
+	background: rgb(223, 223, 223);
+	z-index: 2;
+}
+
+.details_image {
+    margin-top: 80px;
+}
+
+.details_image_large img {
+    max-width: 100%;
+    padding-right : 50px; 
+}
+
+.product_name {
+    margin-top: 100px;
+	font-size: 30px;
+	font-weight: 600;
+	color: #232323;
+	line-height: 0.75;
+}
+
+.in_stock_container {
+	margin-top: 22px;
+}
+
+.availability {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: #6c6a74;
+}
+
+.in_stock_container span {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: #44a038;
+	margin-left: 5px;
+}
+
+.details_name {
+	font-size: 40px;
+	font-weight: 500;
+	color: #1b1b1b;
+	margin-top: -9px;
+}
+
+
+.details_price {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	color: #6c6a74;
+	margin-top: 12px;
+}
+
+.details_text {
+    margin-top: 30px;
+    font-size: 16px;
+	font-weight: 500;
+    color: #6c6a74;
+}
+
+.details_text p {
+    font-weight: 500;
+    color: #000000;
+}
+
+.product_quantity_container {
+	margin-top: 48px;
+}
+
+.products_title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #1b1b1b;
+}
