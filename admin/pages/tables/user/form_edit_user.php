@@ -58,8 +58,12 @@ else
             margin-left: 250px;
         }
 
-        .active-sidebar {
+       .active-sidebar {
             margin-left: 0;
+        }
+        
+        .sidebar a.nav-link:not(:last-child) {
+            margin-bottom: 5px;
         }
 
         #main-content {

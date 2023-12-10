@@ -47,40 +47,50 @@
 	?>
 
 <body id="page-top">
-	<!-- navbar -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-transparan fixed-top" id="mainNav">
-		<div class="container">
-		<b><a class="navbar-brand text-dark" href="index.php">In-Book</a></b>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto">
-		<li class="nav-item active">
-			<a class="nav-link text-dark" href="index.php"><b>Home</b> <span class="sr-only">(current)</span></a>
-		</li>
-		<li class="nav-item active">
-		<b><a class="nav-link text-dark" href="cart.php">Cart
-				<span>(<?php if(isset($_SESSION["nomor"])){ echo $_SESSION["nomor"]; } else{ echo 0 ;} ?>)</span>
-			</a></b> 
-		</li>
-		</div>
-		
-		<a href="admin/index.php" class="btn btn-dark mr-3 text-white">Login</a>
-		<a href="logout.php" class="btn btn-info mr-3 text-white">Clear Cart</a>
-		</div>
-	</nav>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparan fixed-top" id="mainNav">
+        <div class="container">
+            <b><a class="navbar-brand text-dark" href="index.php">In-Book</a></b>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-	<div class="jumbotron">
-		<div class="container">
-			<h1 class="display-4">Selamat Datang di <span class="font-weight-bold">In-Book</span></h1><br>
-			<p class="lead">Website toko buku informatika lengkap</p>
-			<p class="lead">
-				<a class="btn btn-dark btn-lg" href="#produk" role="button">Beli Sekarang!</a>
-			</p>
-		</div>
-	</div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="index.php"><b>Home</b> <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <b><a class="nav-link text-dark" href="cart.php">Cart
+                                <span>(<?php echo isset($_SESSION["nomor"]) ? $_SESSION["nomor"] : 0; ?>)</span>
+                            </a></b>
+                    </li>
+                </ul>
+
+                <?php
+                if (isset($_SESSION['id_customer'])) {
+                    // If the user is logged in, display logout button
+                    echo '<a href="logout.php" class="btn btn-danger mr-3 text-white">Logout</a>';
+                } else {
+                    // If the user is not logged in, display login button
+                    echo '<a href="admin/index.php" class="btn btn-dark mr-3 text-white">Login</a>';
+                }
+                ?>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">Selamat Datang di <span class="font-weight-bold">In-Book</span></h1><br>
+            <p class="lead">Website toko buku informatika lengkap</p>
+            <p class="lead">
+                <a class="btn btn-dark btn-lg" href="#produk" role="button">Beli Sekarang!</a>
+            </p>
+        </div>
+    </div>
 	
 	<!-- Products -->
 	<section id="produk">

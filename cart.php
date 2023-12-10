@@ -65,9 +65,15 @@
 			</a></b> 
 		</li>
 		</div>
-		
-		<a href="admin/index.php" class="btn btn-dark mr-3 text-white">Login</a>
-		<a href="logout.php" class="btn btn-info mr-3 text-white">Clear Cart</a>
+		<?php
+                if (isset($_SESSION['id_customer'])) {
+                    // If the user is logged in, display logout button
+                    echo '<a href="logout.php" class="btn btn-danger mr-3 text-white">Logout</a>';
+                } else {
+                    // If the user is not logged in, display login button
+                    echo '<a href="admin/index.php" class="btn btn-dark mr-3 text-white">Login</a>';
+                }
+                ?>
 		</div>
 	</nav>
 	<div class="jumbotron">
