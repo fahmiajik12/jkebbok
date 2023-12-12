@@ -70,14 +70,17 @@
                 </ul>
 
                 <?php
-                if (isset($_SESSION['id_customer'])) {
-                    // If the user is logged in, display logout button
-                    echo '<a href="logout.php" class="btn btn-danger mr-3 text-white">Logout</a>';
-                } else {
-                    // If the user is not logged in, display login button
-                    echo '<a href="admin/index.php" class="btn btn-dark mr-3 text-white">Login</a>';
-                }
-                ?>
+                    if (isset($_SESSION['id_customer'])) {
+                        // If the user is logged in, display logout button
+                        echo '<a href="logout.php" class="btn btn-danger mr-3 text-white">Logout</a>';
+                    } else {
+                        // If the user is not logged in, display login button
+                        echo '<a href="admin/index.php" class="btn btn-dark mr-3 text-white">Login</a>';
+                        
+                        // Display the Register button only if the user is not logged in
+                        echo '<a href="register.php" class="btn btn-dark mr-3 text-white">Register</a>';
+                    }
+                    ?>
             </div>
         </div>
     </nav>
