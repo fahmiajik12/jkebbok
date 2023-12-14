@@ -69,7 +69,7 @@ else
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-dark bg-dark" width="10px">
-        <span class="navbar-brand mb-0 h1">IN-BOOK</span>
+        <span class="navbar-brand mb-0 h1">BOOK-STORE</span>
         <a href="process/logout.php" class="btn btn-danger mr-3">Logout</a>                          
     </nav>
     <!-- sidebar -->

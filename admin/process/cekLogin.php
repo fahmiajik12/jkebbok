@@ -19,14 +19,14 @@
 		$_SESSION['id_customer'] = $data['id_customer'];
 		$_SESSION['tipe_user'] = $data['tipe_user'];
 
-		if($data['tipe_user'] == "Admin")
-		{
+		if ($data['tipe_user'] == "Admin") {
 			header('location:../dashboard.php');
-		}
-		else
-		{
+		} elseif ($data['tipe_user'] == "Petugas") {
+			header('location:../../petugas/dashboard.php');
+		} else {
 			header('location:../../index.php');
-		}
+		}		
+		
 	}
 	else
 	{

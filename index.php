@@ -12,7 +12,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/dekstop.css">
 
-    <title>In-Book</title>
+    <title>BOOK-STORE</title>
 	<style>
 		.fixed-footer {
             width: 100%;
@@ -50,7 +50,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparan fixed-top" id="mainNav">
         <div class="container">
-            <b><a class="navbar-brand text-dark" href="index.php">In-Book</a></b>
+            <b><a class="navbar-brand text-dark" href="index.php">BOOK-STORE</a></b>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -87,7 +87,7 @@
 
     <div class="jumbotron">
         <div class="container">
-            <h1 class="display-4">Selamat Datang di <span class="font-weight-bold">In-Book</span></h1><br>
+            <h1 class="display-4">Selamat Datang di <span class="font-weight-bold">BOOK-STORE</span></h1><br>
             <p class="lead">Website toko buku informatika lengkap</p>
             <p class="lead">
                 <a class="btn btn-dark btn-lg" href="#produk" role="button">Beli Sekarang!</a>
