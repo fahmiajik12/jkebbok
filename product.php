@@ -52,7 +52,7 @@
 	<!-- navbar -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-transparan fixed-top" id="mainNav">
 		<div class="container">
-		<b><a class="navbar-brand text-dark" href="index.php">Taman Baca Kesiman</a></b>
+		<b><a class="navbar-brand text-dark" href="index.php">SIWEB TAMAN BACA</a></b>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -187,7 +187,7 @@
 
 		<!-- footer -->
     <div class="fixed-footer bg-dark">
-      <div class="container">Copyright &copy; 2023 </div>
+      <div class="container">Copyright &copy; 2024  <a href="#" target="_blank"></a></div>
     </div>
       
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

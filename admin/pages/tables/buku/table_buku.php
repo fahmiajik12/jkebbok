@@ -74,7 +74,7 @@ else
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-dark bg-dark" width="10px">
-        <span class="navbar-brand mb-0 h1">Taman Baca Kesiman</span>
+        <span class="navbar-brand mb-0 h1">SIWEB TAMAN BACA</span>
         <a href="../../../process/logout.php" class="btn btn-danger mr-3">Logout</a>                             
     </nav>
     <!-- sidebar -->
@@ -179,7 +179,7 @@ else
         
     <!-- footer -->
     <div class="fixed-footer bg-dark">
-      <div class="container">Copyright &copy; 2023 </div>
+      <div class="container">Copyright &copy; 2024  <a href="#" target="_blank"></a></div>
     </div>
 
 
