@@ -73,10 +73,11 @@ else
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-dark bg-dark" width="10px">
+    <nav class="navbar navbar-dark bg-dark">
         <span class="navbar-brand mb-0 h1">SIWEB TAMAN BACA</span>
-        <a href="../../../process/logout.php" class="btn btn-danger mr-3">Logout</a>                             
+        <a href="../../../process/logout.php" class="btn btn-danger mr-3">Logout</a>
     </nav>
+
     <!-- sidebar -->
     <div class="sidebar p-4 bg-dark" id="sidebar">
         <a class="btn btn-light text-black nav-link" href="../../../dashboard.php"><h5><b>Dashboard</b></h5></a><hr>
@@ -92,6 +93,7 @@ else
         <button class="btn btn-dark" id="button-toggle">
         <i class="tgle">Lihat Menu</i>
         </button>
+        <a href="#" class="btn btn-secondary mr-3" id="btnCetakPDF">Cetak PDF</a>
         <div class="card mt-3">
             <div class="container-fluid dashboard-content ">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -189,6 +191,12 @@ else
 
       // when the button-toggle is clicked, it will add/remove the active-main-content class
       document.getElementById("main-content").classList.toggle("active-main-content");
+    });
+
+    // event will be executed when the cetak-pdf-button is clicked
+    document.getElementById("btnCetakPDF").addEventListener("click", () => {
+        // Open print dialog saat tombol cetak PDF ditekan
+        window.print();
     });
 
     </script>
