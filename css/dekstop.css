@@ -1,9 +1,8 @@
 .jumbotron {
     background-image: url(../images/caro-4.jpg);
-    background-size: contain; 
-    height: 820px;
+    background-size:cover; 
+    height: 10%;
     text-align: center;
-    margin-top: -120px; 
 }
 
 .jumbotron .display-4 {

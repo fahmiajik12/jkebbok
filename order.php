@@ -48,7 +48,7 @@ $nama = $row['nama_customer'];
 <!-- navbar -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-transparan fixed-top" id="mainNav">
 		<div class="container">
-		<b><a class="navbar-brand text-dark" href="index.php">SIWEB TAMAN BACA</a></b>
+		<b><a class="navbar-brand text-dark" href="index.php">SYAHBIL FIRDAUS BERKARYA</a></b>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>

@@ -88,7 +88,7 @@ else
 <body>
 <!-- navbar -->
 <nav class="navbar navbar-dark bg-dark" width="10px">
-        <span class="navbar-brand mb-0 h1">SIWEB TAMAN BACA</span>
+        <span class="navbar-brand mb-0 h1">SYAHBIL FIRDAUS BERKARYA</span>
         <a href="../../../../admin/process/logout.php" class="btn btn-danger mr-3">Logout</a>                             
     </nav>
     <!-- sidebar -->

@@ -1,21 +1,19 @@
 .jumbotron {
-    background-image: url(../images/caro-4.jpg);
-    background-size: cover; 
-    height: 250px;
+	background-image: url(../images/caro-4.jpg);
+    background-size:cover; 
+    height: 100%;
     text-align: center;
-    margin-top: -120px; 
 }
 
 .jumbotron .display-4 {
-    color: rgb(0, 0, 0);
-	margin-top: 125px;
-	font-size: 30px;
+    color: black;
+    margin-top: 250px;
 }
 
 .section_title
 {
-	font-size: 24px;
-	font-weight: 600;
+	font-size: 12px;
+	font-weight: 200;
 	color: #1b1b1b;
 }
 .section_subtitle
